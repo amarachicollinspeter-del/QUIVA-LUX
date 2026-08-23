@@ -5,10 +5,10 @@
   "type": "module",
   "main": "src/app.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
+    "dev": "nodemon server.js",
     "build": "prisma generate",
     "postinstall": "prisma generate",
-    "start": "node src/app.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.9.1",
